@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,6 +14,9 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.practicados.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
+
+    private EditText nomImput, descriptionInput;
+
 
     private FragmentHomeBinding binding;
 

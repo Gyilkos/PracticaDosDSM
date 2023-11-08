@@ -55,7 +55,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="48dp"
-        android:text="Guardar"
+        android:text="@string/save_btn"
         app:layout_constraintEnd_toEndOf="@+id/ageInput"
         app:layout_constraintTop_toBottomOf="@+id/ageInput" />
 
@@ -64,16 +64,16 @@
         android:layout_width="112dp"
         android:layout_height="56dp"
         android:layout_marginTop="32dp"
-        android:text="Buscar"
+        android:text="@string/search_btn"
         app:layout_constraintEnd_toEndOf="@+id/saveBtn"
         app:layout_constraintTop_toBottomOf="@+id/saveBtn" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/backBtn"
         android:layout_width="141dp"
         android:layout_height="69dp"
         android:layout_marginTop="64dp"
-        android:text="Button"
+        android:text="@string/back_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
