@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <EditText
+        android:id="@+id/rutInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Rut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nomImputTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre"
+        app:layout_constraintEnd_toEndOf="@+id/rutInput"
+        app:layout_constraintTop_toBottomOf="@+id/rutInput" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Edad"
+        app:layout_constraintEnd_toEndOf="@+id/nomImputTwo"
+        app:layout_constraintTop_toBottomOf="@+id/nomImputTwo" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="112dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="48dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="@+id/ageInput"
+        app:layout_constraintTop_toBottomOf="@+id/ageInput" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="112dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:text="Buscar"
+        app:layout_constraintEnd_toEndOf="@+id/saveBtn"
+        app:layout_constraintTop_toBottomOf="@+id/saveBtn" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="141dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="64dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
